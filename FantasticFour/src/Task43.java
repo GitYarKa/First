@@ -21,15 +21,15 @@ public class Task43 {
 		int jr = (int) ((Math.random()*4));
 		int ir = (int) ((Math.random()*4));
 		int num = a[ir][jr];
-		System.out.println("×èñëî, êîòîğîå íóæíî íàéòè: " + num);
+		System.out.println("Ğ§Ğ¸ÑĞ»Ğ¾, ĞºĞ¾Ñ‚Ğ¾Ñ€Ğ¾Ğµ Ğ½ÑƒĞ¶Ğ½Ğ¾ Ğ½Ğ°Ğ¹Ñ‚Ğ¸: " + num);
 		
 		int i,j,f = 0,posmin=0,posmax=24,pos = 12, steps = 1;
 		while(f==0) {
 			i = pos/5;
 			j = pos%5;
 			if (a[i][j] == num) {
-				System.out.println("Ñòğîêà "+(i+1)+" Ñòîëáåö "+(j+1));
-				System.out.println("Êîëè÷åñòâî øàãîâ: " + steps);
+				System.out.println("Ğ¡Ñ‚Ñ€Ğ¾ĞºĞ° "+(i+1)+" Ğ¡Ñ‚Ğ¾Ğ»Ğ±ĞµÑ† "+(j+1));
+				System.out.println("ĞšĞ¾Ğ»Ğ¸Ñ‡ĞµÑÑ‚Ğ²Ğ¾ ÑˆĞ°Ğ³Ğ¾Ğ²: " + steps);
 				f=1;
 			}
 			else if (a[i][j] > num) {

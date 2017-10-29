@@ -16,20 +16,20 @@ public class Task41 {
 		}
 		int num = (int) ((Math.random()*100));
 		int f=0;
-		System.out.println("Число, которое нужно найти: " + num);
+		System.out.println("Р§РёСЃР»Рѕ, РєРѕС‚РѕСЂРѕРµ РЅСѓР¶РЅРѕ РЅР°Р№С‚Рё: " + num);
 		for (int i = 0; i<5; i++)
 		{
 			for (int j = 0; j<5; j++)
 			{
 				if (a[i][j] == num)
 					{
-					System.out.println("Строка "+(i+1)+" Столбец "+(j+1));
-					System.out.println("Количество шагов: " + (i*5+j+1));
+					System.out.println("РЎС‚СЂРѕРєР° "+(i+1)+" РЎС‚РѕР»Р±РµС† "+(j+1));
+					System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ С€Р°РіРѕРІ: " + (i*5+j+1));
 					f = 1;
 					}
 			}
 		}
 		if (f == 0)
-			System.out.println("Такого числа в матрице нет");
+			System.out.println("РўР°РєРѕРіРѕ С‡РёСЃР»Р° РІ РјР°С‚СЂРёС†Рµ РЅРµС‚");
 	}
 }

@@ -4,15 +4,15 @@ public class Task1 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int a, b, abuf, bbuf;
-		System.out.println("Введите 2 числа. Ответом будет то число, которое ближе к 10");
+		System.out.println("Р’РІРµРґРёС‚Рµ 2 С‡РёСЃР»Р°. РћС‚РІРµС‚РѕРј Р±СѓРґРµС‚ С‚Рѕ С‡РёСЃР»Рѕ, РєРѕС‚РѕСЂРѕРµ Р±Р»РёР¶Рµ Рє 10");
 		a = scan.nextInt();
 		b = scan.nextInt();
 		abuf = Math.abs(a - 10);
 		bbuf = Math.abs(b - 10);
 		if (abuf > bbuf)
-			System.out.println("Ответ: " + b);
+			System.out.println("РћС‚РІРµС‚: " + b);
 		else
-			System.out.println("Ответ: " + a);
+			System.out.println("РћС‚РІРµС‚: " + a);
 		scan.close();
 		
 	}

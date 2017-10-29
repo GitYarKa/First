@@ -4,20 +4,20 @@ public class Task2 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int a, b, c;
-		System.out.println("Введите 3 числа. Ответом будут корни уравнения ax^2+bx+c=0 или сообщение о том, что корней нет");
+		System.out.println("Р’РІРµРґРёС‚Рµ 3 С‡РёСЃР»Р°. РћС‚РІРµС‚РѕРј Р±СѓРґСѓС‚ РєРѕСЂРЅРё СѓСЂР°РІРЅРµРЅРёСЏ ax^2+bx+c=0 РёР»Рё СЃРѕРѕР±С‰РµРЅРёРµ Рѕ С‚РѕРј, С‡С‚Рѕ СЂРµС€РёРЅРёР№ РЅРµС‚");
 		a = scan.nextInt();
 		b = scan.nextInt();
 		c = scan.nextInt();
 		if (b*b - (4*a*c) < 0)
-			System.out.println("Корней нет");
+			System.out.println("Р РµС€РµРЅРёР№ РЅРµС‚");
 		else
 		{
 			if (b*b - (4*a*c) == 0)
-				System.out.println("Ответ: " + (-b/(2*a)));
+				System.out.println("РћС‚РІРµС‚: " + (-b/(2*a)));
 			else
 			{
-				System.out.println("Ответ 1: " + ((-b + Math.sqrt(b*b - (4*a*c)))/(2*a)));
-				System.out.println("Ответ 2: " + ((-b - Math.sqrt(b*b - (4*a*c)))/(2*a)));
+				System.out.println("РћС‚РІРµС‚ 1: " + ((-b + Math.sqrt(b*b - (4*a*c)))/(2*a)));
+				System.out.println("РћС‚РІРµС‚ 2: " + ((-b - Math.sqrt(b*b - (4*a*c)))/(2*a)));
 			}
 		}
 		scan.close();

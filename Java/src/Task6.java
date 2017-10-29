@@ -7,10 +7,10 @@ public class Task6 {
 		short ibuf;
 		char cbuf = 0;
 		String hex = "";
-		System.out.println("Введите число. Ответом будет это число в 16-ричной системе счисления");
+		System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ. РћС‚РІРµС‚РѕРј Р±СѓРґРµС‚ СЌС‚Рѕ С‡РёСЃР»Рѕ РІ 16-СЂРёС‡РЅРѕР№ СЃРёСЃС‚РµРјРµ СЃС‡РёСЃР»РµРЅРёСЏ");
 		dec = scan.nextInt();
 		if (dec == 0)
-			System.out.println("Ответ: 0");
+			System.out.println("РћС‚РІРµС‚: 0");
 		else
 			while (dec > 0)
 			{
@@ -38,11 +38,11 @@ public class Task6 {
 						break;
 					}			
 				else
-					cbuf = (char) (ibuf + 48); //48 - знак 0 в ASCII
+					cbuf = (char) (ibuf + 48); //48 - Г§Г­Г ГЄ 0 Гў ASCII
 				hex = cbuf + hex;
 				dec = dec / 16;
 			}
-		System.out.println("Ответ: " + hex);
+		System.out.println("РћС‚РІРµС‚: " + hex);
 		scan.close();
 	}
 }

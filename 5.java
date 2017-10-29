@@ -5,11 +5,11 @@ public class Task5 {
 		Scanner scan = new Scanner(System.in);
 		short a, b;
 		char buf;
-		System.out.println("Ââåäèòå 2 íåîòðèöàòåëüíûõ ÷èñëà òàê, ÷òîáû âòîðîå áûëî áîëüøå ïåðâîãî. Ïðîãðàììà âûâåäåò âñå ñèìâîëû â óêàçàííîì ïðîìåæóòêå");
+		System.out.println("Введите 2 неотрицательных числа так, чтобы второе было больше первого. Программа выведет все символы в указанном промежутке");
 		a = scan.nextShort();
 		b = scan.nextShort();
 		if ((a > b) || (a<0) || (b<0))
-			System.out.println("Îøèáêà");
+			System.out.println("Ошибка");
 		else
 			for (int i = a; i < b; i++)
 			{

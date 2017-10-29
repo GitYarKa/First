@@ -17,7 +17,7 @@ public class Task4 {
 			}
 			System.out.println();
 		}
-		System.out.println("Максимальный элемент массива:" + max);
+		System.out.println("РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ СЌР»РµРјРµРЅС‚ РјР°СЃСЃРёРІР°:" + max);
 	}
 
 }

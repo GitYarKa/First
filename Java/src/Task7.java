@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Task7 {
 
 	public static void main(String[] args) {
-		String[] s = {"Мур", "Вжух", "Буль"};
+		String[] s = {"РљСЂС‹Р»СЊСЏ", "РРўРњРћ", "Р’РїРµСЂРµРґ"};
 		Arrays.sort(s);
 		for (int i=0; i<s.length;i++)
 			System.out.println(s[i]);
